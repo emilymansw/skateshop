@@ -1,0 +1,19 @@
+import styled from 'styled-components';
+
+const ImageContainer = styled.div`
+  margin: 10px;
+  img {
+    width: 500px;
+    height: auto;
+    object-fit: contain;
+  }
+`;
+
+export const Render = () => (
+  <ImageContainer>
+    <img
+      src="https://res-console.cloudinary.com/drvuz5jme/thumbnails/v1/image/upload/v1/c2FtcGxl/template_primary/Yl9yZ2I6ZmZmZmZmLGNfbWZpdCxmbF9sYXllcl9hcHBseSxoXzEzMDAsbF81MjE1M18xMDAweF9xdmx2ajdfb3hmbnZ4LHpfMC9jX3NjYWxlLGZsX2N1dHRlci5sYXllcl9hcHBseSxoXzEzMDAsbF9iZGxnbXNlbF9lbGVtZW50X2ZfYXN0X2ZydDEtcmVtb3ZlYmctcHJldmlld19naTBhaWMseF8wLHpfMC9jX3NjYWxlLGhfMTMwMCxsX2JkbGdtc2VsX2VsZW1lbnRfZl9hc3RfZnJ0MS1yZW1vdmViZy1wcmV2aWV3X2dpMGFpYyx4XzUxNi9jX3NjYWxlLGxfZnVyeS1za2F0ZWJvYXJkLWZvcmdlZC1iYXNlcGxhdGUtdHJ1Y2stc2l6ZS04cXVvdGVzbGFzaDIwMzItbW0tcmVtb3ZlYmctcHJldmlld19wZXhsM2Isd180NTAseF8yNjAseV8tMzEwL2FfMTgwLGNfc2NhbGUsbF9mdXJ5LXNrYXRlYm9hcmQtZm9yZ2VkLWJhc2VwbGF0ZS10cnVjay1zaXplLThxdW90ZXNsYXNoMjAzMi1tbS1yZW1vdmViZy1wcmV2aWV3X3BleGwzYix3XzQ1MCx4XzI2MCx5XzMxMC9jX3NjYWxlLGhfMTUwLGxfNTItbW0tOTlhLWNvbmljYWwtc2thdGVib2FyZC13aGVlbHMtNC1wYWNrLWl2b3J5LXJlbW92ZWJnLXByZXZpZXdfeW5obm92LHhfODUseV8zMTAvY19zY2FsZSxoXzE1MCxsXzUyLW1tLTk5YS1jb25pY2FsLXNrYXRlYm9hcmQtd2hlZWxzLTQtcGFjay1pdm9yeS1yZW1vdmViZy1wcmV2aWV3X3luaG5vdix4XzQzNyx5XzMxMC9jX3NjYWxlLGhfMTUwLGxfNTItbW0tOTlhLWNvbmljYWwtc2thdGVib2FyZC13aGVlbHMtNC1wYWNrLWl2b3J5LXJlbW92ZWJnLXByZXZpZXdfeW5obm92LHhfODUseV8tMzEwL2Nfc2NhbGUsaF8xNTAsbF81Mi1tbS05OWEtY29uaWNhbC1za2F0ZWJvYXJkLXdoZWVscy00LXBhY2staXZvcnktcmVtb3ZlYmctcHJldmlld195bmhub3YseF80MzcseV8tMzEw"
+      alt="dd"
+    />
+  </ImageContainer>
+);

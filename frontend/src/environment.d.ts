@@ -1,0 +1,13 @@
+declare namespace NodeJS {
+  export interface ProcessEnv {
+    REACT_APP_FIREBASE_APIKEY: string;
+    REACT_APP_FIREBASE_AUTHDOMAIN: string;
+    REACT_APP_FIREBASE_PROJECTID: string;
+    REACT_APP_FIREBASE_STORAGEBUCKET: string;
+    REACT_APP_FIREBASE_MESSAGINGSENDERID: string;
+    REACT_APP_FIREBASE_APPID: string;
+    REACT_APP_STRIPE_APIKEY: string;
+    REACT_APP_DEV_BACKEND_BASEURL: string;
+    REACT_APP_PRO_BACKEND_BASEURL: string;
+  }
+}
